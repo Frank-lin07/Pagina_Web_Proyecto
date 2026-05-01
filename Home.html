@@ -6,7 +6,7 @@
     <title>ElQueSurte.com</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close,menu" />
 </head>
 
 <body>
@@ -14,7 +14,7 @@
         <div class="container">
 
             <div class="btn-menu">
-            <label class="material-symbols-outlined">menu</label>
+            <label for="btn-menu" class="material-symbols-outlined">menu</label>
             </div>
 
             <div class="logo">
@@ -23,8 +23,8 @@
                 </h1>
             </div>
 
-            <nav class="menu>">
-                <a href="#">Home</a>
+            <nav class="menu">
+                <a href="Home.html">Home</a>
                 <a href="#">El Proyecto</a>
                 <a href="#">Cortomegtraje</a>
                 <a href="#">Testimonios</a>
@@ -32,5 +32,21 @@
 
         </div>
     </header>
+    <div class="capa"></div>
+
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="enlace">Portafolio</a>
+                <a href="enlace">Servicios</a>
+                <a href="enlace">Suscribete</a>
+                <a href="enlace">Instagram</a>
+                <a href="enlace">Youtube</a>
+            </nav>
+            <label for="btn-menu" class="material-symbols-outlined">close</label>
+        </div>
+    </div>
+
 </body>
 </html>
