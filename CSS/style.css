@@ -26,43 +26,118 @@ body{
     background-repeat: no-repeat;
 }
 
-.capa {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background: white;
-    z-index: -1;
-    top: 0;
-    left: 0;
-}
-
-.header {
+header {
     width: 100%;
     height: 70px;
     position: fixed;
     top: 0;
     left: 0;
-    background: white; 
-    z-index: 100;      
+    background: var(--color-amarillo-verde); 
+    z-index: 50;      
 }
+
+
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 8% 40px;
+    background:var(--color-amarillo-verde);
+    gap: 40px;
+}
+
+.hero-texto {
+    flex: 1;
+    max-width: 50%;
+}
+
+.bienvenida {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    color: var(--color-cafe);
+    margin-bottom: 15px;
+}
+
+.hero-texto h1 {
+    font-family: 'Chango', cursive;
+    font-size: clamp(40px, 6vw, 72px);
+    color: var(--color-rojo);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    color: var(--color-cafe);
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+.btn-hero {
+    display: inline-block;
+    background: #E40605;
+    color: var(--color-amarillo-verde);
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: var(--fuente-titulos);
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn-hero:hover {
+    background: var(--color-naranja);
+}
+
+.hero-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.15));
+}
+
+
+
 .container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
 
+header .container{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    gap: 20px;
+}
 
 .container .btn-menu, .logo {
-    float: left;
+    float: none;
     line-height: 70px;
     vertical-align: middle;
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 
 .container .btn-menu label {
-    color: #000000;
-    font-size: 25px;
+    color: var(--color-rojo);
+    font-size: 35px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -70,24 +145,11 @@ body{
 }
 
 .logo h1 {
-    color: #000000;
+    font-family: var(--fuente-titulos);
+    color: var(--color-rojo);
     font-weight: 400;
     font-size: 22px;
     margin-left: 10px;
-}
-.container .menu {
-    float: right;
-    line-height: 70px;
-}
-.container .menu a {
-    display: inline-block;
-    padding: 15px 10px;
-    line-height: normal;
-    text-decoration: none;
-    color: #000000;
-    transition: all 0.3s ease;
-    border-bottom: 2px solid transparent;
-    font-size: 15px;
 }
 
 .cont-menu label {
@@ -99,17 +161,12 @@ body{
     font-size: 28px;
 }
 
-.container .menu a:hover {
-    border-bottom: 2px solid #c7c7c7;
-    padding-bottom: 5px;
-}
-
 #btn-menu{
     display: none;
 }
 
 .container-menu{
-    position: absolute;
+    position: fixed;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100vh;
@@ -117,6 +174,7 @@ body{
     transition: all 500ms ease;
     opacity: 0;
     visibility: hidden;
+    z-index: 200;
 }
 
 #btn-menu:checked ~ .container-menu{
@@ -127,7 +185,7 @@ body{
 .cont-menu{
     width: 100%;
     max-width: 250px;
-    background: #1c1c1c;
+    background: var(--color-naranja);
     height: 100vh;
     position: relative;
     transition: all 500ms ease;
@@ -143,24 +201,25 @@ body{
 }
 
 .cont-menu nav a{
+    font-family: var(--fuente-titulos);
     display: block;
     text-decoration: none;
     padding: 20px;
-    color: #c7c7c7;
+    color: var(--color-cafe);
     border-left: 5px solid transparent;
     transition: all 400ms ease;
 }
 
 .cont-menu nav a:hover{
-    border-left: 5px solid #c7c7c7;
-    background: #1f1f1f;
+    border-left: 5px solid var(--color-rojo);
+    background: var(--color-amarillo);
 }
 
 .cont-menu label{
     position: absolute;
     right: 5px;
     top: 10px;
-    color: #fff;
+    color: var(--color-rojo);
     cursor: pointer;
-    font-size: 18px;
+    font-size: 25px;
 }
