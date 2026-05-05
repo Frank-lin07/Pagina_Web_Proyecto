@@ -59,14 +59,14 @@ header {
 }
 
 .bienvenida {
-    font-family: 'Indie Flower', cursive;
-    font-size: 18px;
+    font-family: var(--fuente-textos);
+    font-size: 17px;
     color: var(--color-cafe);
     margin-bottom: 15px;
 }
 
 .hero-texto h1 {
-    font-family: 'Chango', cursive;
+    font-family: var(--fuente-titulos);
     font-size: clamp(40px, 6vw, 72px);
     color: var(--color-rojo);
     line-height: 1.1;
@@ -74,8 +74,8 @@ header {
 }
 
 .descripcion {
-    font-family: 'Indie Flower', cursive;
-    font-size: 18px;
+    font-family: var(--fuente-textos);
+    font-size: 17px;
     color: var(--color-cafe);
     margin-bottom: 30px;
     max-width: 400px;
