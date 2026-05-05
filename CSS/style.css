@@ -399,7 +399,7 @@ header .container{
 
 .corto-poster {
     flex: 1;
-    max-width: 38%;
+    max-width: 35%;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(0,0,0,0.5);
