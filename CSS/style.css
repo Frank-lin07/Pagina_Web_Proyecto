@@ -81,18 +81,23 @@ header {
 
 .btn-hero {
     display: inline-block;
-    background: #E40605;
+    background: var(--color-rojo);
     color: var(--color-amarillo-verde);
-    padding: 12px 24px;
-    border-radius: 6px;
+    padding: 14px 32px;
+    border-radius: 8px;
     text-decoration: none;
     font-family: var(--fuente-titulos);
-    font-size: 16px;
-    transition: background 0.3s ease;
+    font-size: 18px;
+    margin-top: 15px;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+    border: 3px solid transparent;
 }
 
 .btn-hero:hover {
     background: var(--color-naranja);
+    color: var(--color-rojo);
+    border-color: var(--color-rojo);
 }
 
 .hero-logo {
@@ -229,7 +234,7 @@ header .container{
     font-size: 25px;
 }
 
-/*Nueva seccion*/
+/*Nueva seccion sinopsis*/
 
 .sinopsis {
     display: flex;
@@ -272,7 +277,7 @@ header .container{
 .sinopsis-contenido h2 {
     font-family: var(--fuente-titulos);
     font-size: clamp(28px, 4vw, 52px);
-    color: var(--color-lila);
+    color: var(--color-naranja);
     line-height: 1.1;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -281,12 +286,11 @@ header .container{
 .sinopsis-texto {
     font-family: var(--fuente-textos);
     font-size: 17px;
-    color: var(--color-amarillo-verde);
+    color: var(--color-amarillo);
     line-height: 1.7;
     margin-bottom: 18px;
 }
 
-/* Tarjetas interactivas */
 .sinopsis-stats {
     display: flex;
     gap: 20px;
@@ -307,8 +311,8 @@ header .container{
 }
 
 .stat-card:hover {
-    background: var(--color-lila);
-    border-color: var(--color-rosa);
+    background: var(--color-amarillo);
+    border-color: var(--color-naranja);
     transform: translateY(-6px);
     box-shadow: 0 12px 30px rgba(0,0,0,0.3);
 }
@@ -323,4 +327,100 @@ header .container{
     font-family: var(--fuente-textos);
     font-size: 14px;
     color: var(--color-cafe);
+}
+
+/*Nueva seccion cortometraje*/
+
+.cortometraje {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 80px 30px;
+    background: var(--color-rojo);
+    gap: 60px;
+}
+
+.corto-contenido {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.corto-etiqueta {
+    font-family: var(--fuente-textos);
+    font-size: 16px;
+    color: var(--color-amarillo);
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.corto-contenido h2 {
+    font-family: var(--fuente-titulos);
+    font-size: clamp(28px, 4vw, 52px);
+    color: var(--color-amarillo);
+    line-height: 1.1;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.corto-texto {
+    font-family: var(--fuente-textos);
+    font-size: 17px;
+    color: var(--color-amarillo);
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.btn-corto {
+    display: inline-block;
+    background: var(--color-amarillo);
+    color: var(--color-cafe);
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: var(--fuente-titulos);
+    font-size: 18px;
+    margin-top: 15px;
+    align-self: flex-start;
+    transition: all 0.3s ease;
+    border: 3px solid transparent;
+}
+
+.btn-corto:hover {
+    border-color: var(--color-naranja);
+    background-color: var(--color-cafe);
+    color: var(--color-amarillo);
+}
+
+.corto-poster {
+    flex: 1;
+    max-width: 38%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    transform: rotate(2deg);
+}
+
+.corto-poster:hover {
+    transform: rotate(0deg) scale(1.03);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+}
+
+.corto-poster img {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.corto-poster img:hover {
+    transform: scale(1.05);
 }
