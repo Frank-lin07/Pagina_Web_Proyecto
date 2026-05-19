@@ -443,13 +443,13 @@ header .container{
 }
 
 .testimonios .corto-etiqueta {
-    color: var(--color-cafe);
+    color: var(--color-amarillo-verde);
 }
 
 .testimonios-header h2 {
     font-family: var(--fuente-titulos);
     font-size: clamp(28px, 4vw, 52px);
-    color: var(--color-cafe);
+    color: var(--color-amarillo-verde);
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -591,13 +591,13 @@ header .container{
 .redes-header h2 {
     font-family: var(--fuente-titulos);
     font-size: clamp(28px, 4vw, 52px);
-    color: var(--color-cafe);
+    color: var(--color-naranja);
     text-transform: uppercase;
     margin-top: 10px;
 }
 
 .redes .corto-etiqueta {
-    color: var(--color-cafe);
+    color: var(--color-naranja);
 }
 
 .redes-grid {
@@ -624,7 +624,7 @@ header .container{
 .redes-formulario h3 {
     font-family: var(--fuente-titulos);
     font-size: 22px;
-    color: var(--color-cafe);
+    color: var(--color-naranja);
     margin-bottom: 5px;
 }
 
@@ -668,8 +668,8 @@ header .container{
 .btn-enviar {
     font-family: var(--fuente-titulos);
     font-size: 18px;
-    background: var(--color-cafe);
-    color: var(--color-amarillo);
+    background: var(--color-naranja);
+    color: var(--color-rojo);
     padding: 14px 32px;
     border: none;
     border-radius: 8px;
@@ -695,7 +695,7 @@ header .container{
 .redes-contacto h3 {
     font-family: var(--fuente-titulos);
     font-size: 22px;
-    color: var(--color-cafe);
+    color: var(--color-naranja);
     margin-bottom: 5px;
 }
 
@@ -725,11 +725,24 @@ header .container{
 .contacto-titulo {
     font-family: var(--fuente-titulos);
     font-size: 14px;
-    color: var(--color-cafe);
+    color: var(--color-naranja);
 }
 
 .contacto-dato {
     font-family: var(--fuente-textos);
     font-size: 16px;
     color: #333;
+}
+
+/*footer*/
+.footer {
+    background: var(--color-cafe);
+    padding: 25px 30px;
+    text-align: center;
+}
+
+.footer p {
+    font-family: var(--fuente-textos);
+    font-size: 15px;
+    color: var(--color-amarillo-verde);
 }

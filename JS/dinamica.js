@@ -21,8 +21,8 @@ const colores = {
 
     'testimonios': {
         fondo:  '#E2728B',
-        texto:  '#8C5011',
-        icono:  '#8C5011'
+        texto:  '#D3D45C',
+        icono:  '#D3D45C'
 },
 
     'visitanos': {
@@ -33,8 +33,8 @@ const colores = {
 
     'redes': {
         fondo:  '#D3B1D4',
-        texto:  '#8C5011',
-        icono:  '#8C5011'
+        texto:  '#FF8F0F',
+        icono:  '#FF8F0F'
 }
 };
 
