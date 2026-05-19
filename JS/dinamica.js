@@ -20,16 +20,22 @@ const colores = {
     },
 
     'testimonios': {
-    fondo:  '#E2728B',
-    texto:  '#8C5011',
-    icono:  '#8C5011'
+        fondo:  '#E2728B',
+        texto:  '#8C5011',
+        icono:  '#8C5011'
 },
 
     'visitanos': {
         fondo:  '#F9C521',
         texto:  '#8C5011',
         icono:  '#8C5011'
-    }
+    },
+
+    'redes': {
+        fondo:  '#D3B1D4',
+        texto:  '#8C5011',
+        icono:  '#8C5011'
+}
 };
 
 const secciones = document.querySelectorAll('section[id]');
