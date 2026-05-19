@@ -606,7 +606,7 @@ header .container{
     gap: 50px;
     width: 100%;
     max-width: 1100px;
-    align-items: flex-start;
+    align-items: stretch;
 }
 
 /* Formulario */
@@ -690,6 +690,7 @@ header .container{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    justify-content: space-between;
 }
 
 .redes-contacto h3 {
@@ -710,6 +711,7 @@ header .container{
     border: 3px solid transparent;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
+    flex: 1;
 }
 
 .contacto-item:hover {
@@ -736,13 +738,13 @@ header .container{
 
 /*footer*/
 .footer {
-    background: var(--color-cafe);
-    padding: 25px 30px;
+    background: var(--color-naranja);
+    padding: 15px;
     text-align: center;
 }
 
 .footer p {
     font-family: var(--fuente-textos);
     font-size: 15px;
-    color: var(--color-amarillo-verde);
+    color: var(--color-rojo);
 }
