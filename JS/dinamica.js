@@ -7,17 +7,19 @@ const colores = {
         fondo:  '#D3D45C',
         texto:  '#E40605',
         icono:  '#E40605'
-    },
+},
+
     'sinopsis': {
         fondo:  '#8C5011',
         texto:  '#D3D45C',
         icono:  '#D3D45C'
-    },
+},
+
     'cortometraje': {
         fondo:  '#E40605',
         texto:  '#F9C521',
         icono:  '#F9C521'
-    },
+},
 
     'testimonios': {
         fondo:  '#E2728B',
@@ -29,7 +31,7 @@ const colores = {
         fondo:  '#F9C521',
         texto:  '#8C5011',
         icono:  '#8C5011'
-    },
+},
 
     'redes': {
         fondo:  '#D3B1D4',
