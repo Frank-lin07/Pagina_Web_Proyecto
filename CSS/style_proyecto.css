@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Indie+Flower&display=swap');
+
+:root {
+    /* Tipografías */
+    --fuente-titulos: 'Chango', cursive;
+    --fuente-textos: 'Indie Flower', cursive;
+
+    /* Paleta de colores */
+    --color-rojo:      #E40605;
+    --color-amarillo-verde: #D3D45C;
+    --color-naranja:   #FF8F0F;
+    --color-lila:      #D3B1D4;
+    --color-amarillo:  #F9C521;
+    --color-cafe:      #8C5011;
+    --color-rosa:      #E2728B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-proyecto {
+    background: var(--color-cafe) !important;
+}
+
+.header-proyecto .logo h1 {
+    color: var(--color-amarillo) !important;
+}
+
+.header-proyecto .btn-menu label {
+    color: var(--color-amarillo) !important;
+}
+
+/*HERO PROYECTO*/
+.proyecto-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 100px 8% 60px;
+    background: var(--color-cafe);
+    gap: 60px;
+}
+
+.proyecto-hero-contenido {
+    flex: 1;
+    max-width: 50%;
+}
+
+.proyecto-hero-contenido .corto-etiqueta {
+    color: var(--color-amarillo);
+}
+
+.proyecto-hero-contenido h1 {
+    font-family: var(--fuente-titulos);
+    font-size: clamp(32px, 5vw, 62px);
+    color: var(--color-naranja);
+    line-height: 1.1;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.proyecto-hero-texto {
+    font-family: var(--fuente-textos);
+    font-size: 18px;
+    color: var(--color-amarillo-verde);
+    line-height: 1.7;
+}
+
+.proyecto-hero-imagen {
+    flex: 1;
+    max-width: 45%;
+    border-radius: 16px;
+    overflow: hidden;
+    transform: rotate(-2deg);
+    transition: transform 0.4s ease;
+}
+
+.proyecto-hero-imagen:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.proyecto-hero-imagen img {
+    width: 100%;
+    height: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    display: block;
+}
+
+/*FINALIDAD*/
+.proyecto-finalidad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 80px 8%;
+    background: var(--color-amarillo-verde);
+    gap: 60px;
+}
+
+.finalidad-contenido {
+    flex: 1;
+    max-width: 50%;
+}
+
+.finalidad-contenido .corto-etiqueta {
+    color: var(--color-cafe);
+}
+
+.finalidad-contenido h2 {
+    font-family: var(--fuente-titulos);
+    font-size: clamp(28px, 4vw, 52px);
+    color: var(--color-rojo);
+    line-height: 1.1;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.finalidad-texto {
+    font-family: var(--fuente-textos);
+    font-size: 17px;
+    color: var(--color-cafe);
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+.finalidad-imagen {
+    flex: 1;
+    max-width: 45%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    transform: rotate(2deg);
+    transition: transform 0.4s ease;
+}
+
+.finalidad-imagen:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.finalidad-imagen img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+/*OBJETIVOS*/
+.proyecto-objetivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 80px 8%;
+    background: var(--color-rojo);
+    gap: 50px;
+}
+
+.objetivos-header {
+    text-align: center;
+}
+
+.objetivos-header .corto-etiqueta {
+    color: var(--color-amarillo);
+}
+
+.objetivos-header h2 {
+    font-family: var(--fuente-titulos);
+    font-size: clamp(28px, 4vw, 52px);
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.objetivo-general {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: rgba(255,255,255,0.15);
+    padding: 30px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 900px;
+    border-left: 6px solid var(--color-amarillo);
+}
+
+.objetivo-general .objetivo-icono {
+    font-size: 40px;
+    flex-shrink: 0;
+}
+
+.objetivo-general h3 {
+    font-family: var(--fuente-titulos);
+    font-size: 22px;
+    color: var(--color-amarillo);
+    margin-bottom: 10px;
+}
+
+.objetivo-general p {
+    font-family: var(--fuente-textos);
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.7;
+}
+
+.objetivos-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.objetivo-card {
+    flex: 1;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    cursor: default;
+    transition: all 0.3s ease;
+    border: 3px solid transparent;
+    position: relative;
+}
+
+.objetivo-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-amarillo);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.objetivo-numero {
+    font-family: var(--fuente-titulos);
+    font-size: 48px;
+    color: var(--color-amarillo-verde);
+    line-height: 1;
+}
+
+.objetivo-icono-card {
+    font-size: 32px;
+}
+
+.objetivo-card h3 {
+    font-family: var(--fuente-titulos);
+    font-size: 20px;
+    color: var(--color-rojo);
+}
+
+.objetivo-card p {
+    font-family: var(--fuente-textos);
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/*EQUIPO*/
+.proyecto-equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 80px 8%;
+    background: var(--color-rosa);
+    gap: 50px;
+}
+
+.equipo-header {
+    text-align: center;
+}
+
+.equipo-header .corto-etiqueta {
+    color: var(--color-cafe);
+}
+
+.equipo-header h2 {
+    font-family: var(--fuente-titulos);
+    font-size: clamp(28px, 4vw, 52px);
+    color: var(--color-cafe);
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.equipo-subtitulo {
+    font-family: var(--fuente-textos);
+    font-size: 17px;
+    color: var(--color-cafe);
+}
+
+.equipo-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+}
+
+.equipo-card {
+    flex: 1;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.15);
+    transition: all 0.4s ease;
+    border: 4px solid transparent;
+}
+
+.equipo-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--color-cafe);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+}
+
+.equipo-img {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.equipo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 0.4s ease;
+}
+
+.equipo-card:hover .equipo-img img {
+    transform: scale(1.05);
+}
+
+.equipo-info {
+    padding: 25px;
+    text-align: center;
+    background: var(--color-amarillo-verde);
+}
+
+.equipo-info h3 {
+    font-family: var(--fuente-titulos);
+    font-size: 20px;
+    color: var(--color-cafe);
+    margin-bottom: 8px;
+}
+
+.equipo-rol {
+    font-family: var(--fuente-textos);
+    font-size: 16px;
+    color: var(--color-rojo);
+    margin-bottom: 4px;
+}
+
+.equipo-universidad {
+    font-family: var(--fuente-textos);
+    font-size: 14px;
+    color: var(--color-cafe);
+}
+
+/*footer*/
+.footer {
+    background: var(--color-naranja);
+    padding: 15px;
+    text-align: center;
+}
+
+.footer p {
+    font-family: var(--fuente-textos);
+    font-size: 15px;
+    color: var(--color-rojo);
+}
+
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+    .proyecto-hero,
+    .proyecto-finalidad {
+        flex-direction: column;
+        padding: 100px 5% 60px;
+        text-align: center;
+    }
+
+    .proyecto-hero-contenido,
+    .finalidad-contenido {
+        max-width: 100%;
+    }
+
+    .proyecto-hero-imagen,
+    .finalidad-imagen {
+        max-width: 100%;
+    }
+
+    .objetivos-grid {
+        flex-direction: column;
+    }
+
+    .equipo-grid {
+        flex-direction: column;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 480px) {
+    .objetivo-general {
+        flex-direction: column;
+    }
+
+    .equipo-img {
+        height: 300px;
+    }
+}
