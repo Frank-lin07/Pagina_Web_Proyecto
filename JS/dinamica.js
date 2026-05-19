@@ -17,6 +17,18 @@ const colores = {
         fondo:  '#E40605',
         texto:  '#F9C521',
         icono:  '#F9C521'
+    },
+
+    'testimonios': {
+    fondo:  '#E2728B',
+    texto:  '#8C5011',
+    icono:  '#8C5011'
+},
+
+    'visitanos': {
+        fondo:  '#F9C521',
+        texto:  '#8C5011',
+        icono:  '#8C5011'
     }
 };
 
