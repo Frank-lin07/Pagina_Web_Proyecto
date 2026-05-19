@@ -748,3 +748,171 @@ header .container{
     font-size: 15px;
     color: var(--color-rojo);
 }
+
+
+/*RESPONSIVE TABLET (768px)*/
+@media (max-width: 768px) {
+
+    /* Header */
+    .logo h1 {
+        font-size: 16px;
+    }
+
+    /* Hero */
+    .hero {
+        flex-direction: column;
+        padding: 100px 5% 60px;
+        text-align: center;
+    }
+
+    .hero-texto {
+        max-width: 100%;
+    }
+
+    .hero-texto h1 {
+        font-size: clamp(32px, 8vw, 52px);
+    }
+
+    .btn-hero {
+        align-self: center;
+    }
+
+    .hero-logo img {
+        max-width: 280px;
+    }
+
+    /* Sinopsis */
+    .sinopsis {
+        flex-direction: column;
+        padding: 100px 5% 60px;
+    }
+
+    .sinopsis-imagen {
+        max-width: 100%;
+    }
+
+    .sinopsis-contenido {
+        max-width: 100%;
+    }
+
+    /* Cortometraje */
+    .cortometraje {
+        flex-direction: column-reverse;
+        padding: 100px 5% 60px;
+        text-align: center;
+    }
+
+    .corto-contenido {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .corto-poster {
+        max-width: 70%;
+    }
+
+    /* Testimonios */
+    .testimonios-grid {
+        flex-direction: column;
+        max-width: 500px;
+    }
+
+    /* Visitanos */
+    .visitanos-mapa {
+        height: 350px;
+    }
+
+    /* Redes */
+    .redes-grid {
+        flex-direction: column;
+    }
+
+    .redes-formulario {
+        width: 100%;
+    }
+
+    .redes-contacto {
+        width: 100%;
+    }
+}
+
+/*RESPONSIVE CELULAR (480px)*/
+@media (max-width: 480px) {
+
+    /* Header */
+    .logo h1 {
+        font-size: 13px;
+    }
+
+    .container .btn-menu label {
+        font-size: 28px;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 90px 5% 50px;
+        gap: 20px;
+    }
+
+    .hero-texto h1 {
+        font-size: clamp(28px, 9vw, 42px);
+    }
+
+    .hero-logo img {
+        max-width: 220px;
+    }
+
+    /* Sinopsis */
+    .sinopsis {
+        gap: 30px;
+    }
+
+    .sinopsis-contenido h2 {
+        font-size: clamp(22px, 7vw, 36px);
+    }
+
+    .sinopsis-stats {
+        flex-direction: column;
+    }
+
+    /* Cortometraje */
+    .corto-poster {
+        max-width: 90%;
+    }
+
+    .corto-contenido h2 {
+        font-size: clamp(22px, 7vw, 36px);
+    }
+
+    /* Testimonios */
+    .testimonio-img {
+        height: 220px;
+    }
+
+    /* Visitanos */
+    .visitanos-mapa {
+        height: 280px;
+        border-width: 5px;
+    }
+
+    /* Redes */
+    .btn-enviar {
+        width: 100%;
+        align-self: stretch;
+        text-align: center;
+    }
+
+    .contacto-item {
+        padding: 12px 15px;
+    }
+
+    .contacto-icono {
+        font-size: 22px;
+    }
+
+    /* Footer */
+    .footer p {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+}
