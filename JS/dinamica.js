@@ -55,3 +55,24 @@ window.addEventListener('scroll', () => {
     logoTexto.style.color   = config.texto;
     iconoMenu.style.color   = config.icono;
 });
+
+document.querySelectorAll('a[href^="#"]').forEach(enlace => {
+    enlace.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const destino = document.querySelector(this.getAttribute('href'));
+        if (!destino) return;
+
+        // Cierra el menú desplegable
+        document.getElementById('btn-menu').checked = false;
+
+        // Scroll suave compensando el header
+        const alturaHeader = 70;
+        const posicion = destino.offsetTop - alturaHeader;
+
+        window.scrollTo({
+            top: posicion,
+            behavior: 'smooth'
+        });
+    });
+});
