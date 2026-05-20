@@ -22,15 +22,15 @@
 }
 
 .header-proyecto {
-    background: var(--color-cafe) !important;
+    background: var(--color-cafe);
 }
 
 .header-proyecto .logo h1 {
-    color: var(--color-amarillo) !important;
+    color: var(--color-amarillo);
 }
 
 .header-proyecto .btn-menu label {
-    color: var(--color-amarillo) !important;
+    color: var(--color-amarillo);
 }
 
 /*HERO PROYECTO*/
@@ -218,7 +218,7 @@
 
 .objetivo-card {
     flex: 1;
-    background: #fff;
+    background: rgba(255,255,255,0.15);
     border-radius: 16px;
     padding: 30px 25px;
     display: flex;
@@ -239,7 +239,7 @@
 .objetivo-numero {
     font-family: var(--fuente-titulos);
     font-size: 48px;
-    color: var(--color-amarillo-verde);
+    color: var(--color-amarillo);
     line-height: 1;
 }
 
@@ -250,13 +250,13 @@
 .objetivo-card h3 {
     font-family: var(--fuente-titulos);
     font-size: 20px;
-    color: var(--color-rojo);
+    color: var(--color-amarillo);
 }
 
 .objetivo-card p {
     font-family: var(--fuente-textos);
     font-size: 15px;
-    color: #444;
+    color: #fff;
     line-height: 1.6;
 }
 
@@ -321,7 +321,7 @@
 
 .equipo-img {
     width: 100%;
-    height: 380px;
+    height: 420px;
     overflow: hidden;
 }
 
@@ -329,7 +329,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center top;
     transition: transform 0.4s ease;
 }
 
