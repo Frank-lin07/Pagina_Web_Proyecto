@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cortometraje - Plaza de Mercado de Cartago</title>
+    <link rel="icon" type="image/x-icon" href="IMG/logo_png.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_cortometraje.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close,menu" />
+</head>
+
+<body>
+
+    <header class="header-corto">
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu" class="material-symbols-outlined">menu</label>
+            </div>
+            <div class="logo">
+                <h1>Plaza De Mercado De Cartago</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="corto-hero" id="corto-hero">
+        <div class="corto-hero-contenido">
+            <p class="corto-etiqueta">Cortometraje</p>
+            <h1>Nombre del Cortometraje</h1>
+            <p class="corto-hero-texto">
+                Un viaje audiovisual al corazón de la Plaza de Mercado 
+                de Cartago. Una historia que merece ser contada.
+            </p>
+        </div>
+        <div class="corto-hero-poster">
+            <img src="IMG/Imagen.jpg" alt="Poster del Cortometraje">
+            <img src="IMG/logo_png.png" alt="El Que Surte" class="poster-sticker">
+        </div>
+    </section>
+
+    <section class="corto-video-seccion" id="corto-video">
+        <div class="corto-video-header">
+            <p class="corto-etiqueta">Míralo aquí</p>
+            <h2>El Cortometraje</h2>
+            <p class="corto-video-sinopsis">
+                Sinopsis del cortometraje. Describe brevemente 
+                de qué trata, el tono y lo que el espectador 
+                va a encontrar al verlo.
+            </p>
+        </div>
+
+        <div class="corto-video-wrapper">
+            <iframe
+                src="https://www.youtube.com/embed/LINK_CORTOMETRAJE"
+                title="Cortometraje El Que Surte"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: CRÉDITOS -->
+    <section class="corto-creditos" id="corto-creditos">
+        <div class="creditos-header">
+            <p class="corto-etiqueta">El equipo detrás</p>
+            <h2>Créditos</h2>
+        </div>
+
+        <div class="creditos-grid">
+
+            <div class="credito-card">
+                <span class="credito-icono">🎬</span>
+                <p class="credito-rol">Dirección</p>
+                <p class="credito-nombre">Nombre del Director</p>
+            </div>
+
+            <div class="credito-card">
+                <span class="credito-icono">🎥</span>
+                <p class="credito-rol">Cámara y Fotografía</p>
+                <p class="credito-nombre">Nombre del Camarógrafo</p>
+            </div>
+
+            <div class="credito-card">
+                <span class="credito-icono">✂️</span>
+                <p class="credito-rol">Edición y Montaje</p>
+                <p class="credito-nombre">Nombre del Editor</p>
+            </div>
+
+            <div class="credito-card">
+                <span class="credito-icono">🎵</span>
+                <p class="credito-rol">Música y Sonido</p>
+                <p class="credito-nombre">Nombre del Sonidista</p>
+            </div>
+
+            <div class="credito-card">
+                <span class="credito-icono">🎨</span>
+                <p class="credito-rol">Diseño y Arte</p>
+                <p class="credito-nombre">Nombre del Diseñador</p>
+            </div>
+
+            <div class="credito-card">
+                <span class="credito-icono">📋</span>
+                <p class="credito-rol">Producción</p>
+                <p class="credito-nombre">Nombre del Productor</p>
+            </div>
+
+        </div>
+
+        <div class="creditos-agradecimientos">
+            <h3>Agradecimientos</h3>
+            <p>A todos los vendedores y trabajadores de la Plaza de Mercado 
+            de Cartago que abrieron sus puertas y compartieron su historia.</p>
+            <p>Universidad Cooperativa de Colombia · Diseño Crossmedia · 2026</p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 El Que Surte · Cartago, Valle del Cauca · Todos los derechos reservados</p>
+    </footer>
+
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="Index.html">Home</a>
+                <a href="proyecto.html">El Proyecto</a>
+                <a href="cortometraje.html">Cortometraje</a>
+                <a href="testimonios.html">Testimonios</a>
+                <a href="Index.html#visitanos">Visitanos</a>
+                <a href="Index.html#redes">Instagram</a>
+            </nav>
+            <label for="btn-menu" class="material-symbols-outlined">close</label>
+        </div>
+    </div>
+
+    <script src="JS/cortometraje.js"></script>
+</body>
+</html>
