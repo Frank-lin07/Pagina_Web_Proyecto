@@ -243,8 +243,7 @@ header .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 100px;
-    opacity: 0.85;
+    padding: 100px;
 }
 
 .cont-menu-logo img {
