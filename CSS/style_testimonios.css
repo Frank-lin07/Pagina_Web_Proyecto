@@ -130,6 +130,12 @@
     flex-direction: row-reverse;
 }
 
+.testimonio-bloque:nth-child(even) .testimonio-info {
+    background: #f1f1f17d;
+    padding: 25px;
+    border-radius: 16px;
+}
+
 /*Video*/
 .testimonio-video {
     flex: 1;
