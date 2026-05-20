@@ -197,11 +197,13 @@ header .container{
 .cont-menu{
     width: 100%;
     max-width: 250px;
-    background: var(--color-naranja);
+    background: var(--color-amarillo-verde);
     height: 100vh;
     position: relative;
     transition: all 500ms ease;
     transform: translateX(-100%);
+    justify-content: space-between; 
+    border-radius: 0 30px 50px 0;
 }
 
 #btn-menu:checked ~ .container-menu .cont-menu{
@@ -217,7 +219,7 @@ header .container{
     display: block;
     text-decoration: none;
     padding: 20px;
-    color: var(--color-cafe);
+    color: var(--color-rojo);
     border-left: 5px solid transparent;
     transition: all 400ms ease;
 }
@@ -234,6 +236,26 @@ header .container{
     color: var(--color-rojo);
     cursor: pointer;
     font-size: 25px;
+}
+
+
+.cont-menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    opacity: 0.85;
+}
+
+.cont-menu-logo img {
+    width: 180px;
+    height: auto;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.2));
+    transition: transform 0.3s ease;
+}
+
+.cont-menu-logo img:hover {
+    transform: rotate(5deg) scale(1.05);
 }
 
 /*Nueva seccion sinopsis*/
