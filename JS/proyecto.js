@@ -19,7 +19,7 @@ const colores = {
         icono:  '#F9C521'
     },
     'proyecto-equipo': {
-        fondo:  '#E2728B',
+        fondo:  '#D3B1D4',
         texto:  '#8C5011',
         icono:  '#8C5011'
     }
