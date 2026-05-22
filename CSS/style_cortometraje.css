@@ -46,6 +46,17 @@
     gap: 60px;
 }
 
+.corto-hero-poster.animar-derecha {
+    opacity: 0;
+    transform: translateX(50px) rotate(2deg);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.corto-hero-poster.animar-derecha.visible {
+    opacity: 1;
+    transform: translateX(0) rotate(2deg);
+}
+
 .corto-hero-poster {
     position: relative; /* ✅ agrega esto */
 }
