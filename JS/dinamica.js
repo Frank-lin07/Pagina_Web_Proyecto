@@ -88,6 +88,6 @@ const observador = new IntersectionObserver((entradas) => {
     });
 }, { threshold: 0.15 });
 
-document.querySelectorAll('.animar').forEach(el => {
+document.querySelectorAll('.animar, .animar-izquierda, .animar-derecha').forEach(el => {
     observador.observe(el);
 });
