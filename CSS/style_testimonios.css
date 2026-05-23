@@ -43,7 +43,7 @@
     min-height: 100vh;
     padding: 100px 8% 60px;
     background: var(--color-naranja);
-    background-image: url(/IMG/Fondo_Naranja);
+    background-image: url(/IMG/Fondo_Naranja.png);
     background-size: cover;
     background-position: center;
     text-align: left;
@@ -76,7 +76,6 @@
 
 .test-hero-logo img:hover {
     transform: rotate(3deg) scale(1.05);
-    filter: drop-shadow(0 20px 40px rgba(228, 6, 5, 0.4));
 }
 
 .test-hero-contenido {
