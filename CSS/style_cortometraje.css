@@ -7,7 +7,7 @@
 
     /* Paleta de colores */
     --color-rojo:      #E40605;
-    --color-amarillo-verde: #D3D45C;
+    --color-amarillo-verde: #D3D930;
     --color-naranja:   #FF8F0F;
     --color-lila:      #D3B1D4;
     --color-amarillo:  #F9C521;
@@ -23,7 +23,7 @@
 
 /*HEADER*/
 .header-corto {
-    background: #1a1a1a;
+    background: var(--color-cafe);
 }
 
 .header-corto .logo h1 {
@@ -42,7 +42,10 @@
     justify-content: space-between;
     min-height: 100vh;
     padding: 100px 8% 60px;
-    background: #1a1a1a;
+    background: var(--color-cafe);
+    background-image: url(/IMG/Fondo_Cafe_Amarillo.png);
+    background-size: cover;
+    background-position: center;
     gap: 60px;
 }
 
@@ -58,7 +61,7 @@
 }
 
 .corto-hero-poster {
-    position: relative; /* ✅ agrega esto */
+    position: relative;
 }
 
 .corto-hero-contenido {
@@ -126,6 +129,18 @@
     transform: rotate(10deg) scale(1.1);
 }
 
+/* Fix hover cortometraje */
+.corto-hero-contenido {
+    position: relative;
+    z-index: 1;
+}
+
+.corto-hero-poster {
+    position: relative;
+    z-index: 1;
+}
+
+
 /*VIDEO*/
 .corto-video-seccion {
     display: flex;
@@ -134,6 +149,9 @@
     min-height: 100vh;
     padding: 80px 8%;
     background: var(--color-rojo);
+    background-image: url(/IMG/Fondo_Rojo.png);
+    background-size: cover;
+    background-position: center;
     gap: 40px;
 }
 
@@ -186,6 +204,9 @@
     min-height: 100vh;
     padding: 80px 8%;
     background: var(--color-cafe);
+    background-image: url(/IMG/Fondo_Cafe_Amarillo.png);
+    background-size: cover;
+    background-position: center;
     gap: 50px;
 }
 

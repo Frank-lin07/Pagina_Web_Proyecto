@@ -7,7 +7,7 @@
 
     /* Paleta de colores */
     --color-rojo:      #E40605;
-    --color-amarillo-verde: #D3D45C;
+    --color-amarillo-verde: #D3D930;
     --color-naranja:   #FF8F0F;
     --color-lila:      #D3B1D4;
     --color-amarillo:  #F9C521;
@@ -43,6 +43,9 @@
     min-height: 100vh;
     padding: 100px 8% 60px;
     background: var(--color-naranja);
+    background-image: url();
+    background-size: cover;
+    background-position: center;
     text-align: left;
     position: relative;   
     overflow: hidden; 
@@ -107,6 +110,24 @@
     line-height: 1.7;
 }
 
+/*Fix hover testimonios*/
+.test-hero-logo {
+    position: relative;
+    z-index: 2;
+}
+
+.test-hero-contenido {
+    position: relative;
+    z-index: 2;
+}
+
+.testimonio-video,
+.testimonio-info {
+    position: relative;
+    z-index: 1;
+}
+
+
 /*BLOQUES TESTIMONIO*/
 .testimonio-bloque {
     display: flex;
@@ -120,10 +141,16 @@
 
 .testimonio-bloque:nth-child(odd) {
     background: var(--color-cafe);
+    background-image: url(/IMG/Fondo_Cafe_Amarillo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .testimonio-bloque:nth-child(even) {
     background: var(--color-amarillo-verde);
+    background-image: url(/IMG/Fondo_Verde.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .testimonio-invertido {

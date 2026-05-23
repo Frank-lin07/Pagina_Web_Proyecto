@@ -7,7 +7,7 @@
 
     /* Paleta de colores */
     --color-rojo:      #E40605;
-    --color-amarillo-verde: #D3D45C;
+    --color-amarillo-verde: #D3D930;
     --color-naranja:   #FF8F0F;
     --color-lila:      #D3B1D4;
     --color-amarillo:  #F9C521;
@@ -50,6 +50,9 @@ header {
     width: 100%;
     padding: 100px 8% 40px;
     background:var(--color-amarillo-verde);
+    background-image: url(/IMG/Fondo_Verde.png);
+    background-size: cover;
+    background-position: center;
     gap: 40px;
 }
 
@@ -257,6 +260,60 @@ header .container{
     transform: rotate(5deg) scale(1.05);
 }
 
+/*FIXES HOVER*/
+
+/* Hero logo */
+.hero-logo {
+    position: relative;
+    z-index: 1;
+}
+
+/* Sinopsis imagen */
+.sinopsis-imagen {
+    position: relative;
+    z-index: 1;
+}
+
+/* Corto poster home */
+.corto-poster {
+    position: relative;
+    z-index: 1;
+}
+
+.testimonios {
+    position: relative;
+}
+
+.testimonios-header,
+.testimonios-grid {
+    position: relative;
+    z-index: 1;
+}
+
+.sinopsis-imagen {
+    position: relative;
+    z-index: 1;
+    transform: rotate(-2deg);
+    transition: transform 0.4s ease;
+}
+
+.sinopsis-imagen:hover {
+    transform: rotate(0deg) scale(1.02);
+    z-index: 2;
+}
+
+.sinopsis-imagen {
+    position: relative;
+    z-index: 1;
+    transform: rotate(-2deg);
+    transition: transform 0.4s ease;
+}
+
+.sinopsis-imagen:hover {
+    transform: rotate(0deg) scale(1.02);
+    z-index: 2;
+}
+
 /*Nueva seccion sinopsis*/
 
 .sinopsis {
@@ -267,6 +324,10 @@ header .container{
     min-height: 100vh;
     padding: 80px 30px;
     background: var(--color-cafe);
+    background-image: url(/IMG/Fondo_Cafe_Amarillo.png);
+    background-size: cover;
+    background-position: center;
+
     gap: 60px;
 }
 
@@ -362,6 +423,9 @@ header .container{
     min-height: 100vh;
     padding: 80px 30px;
     background: var(--color-rojo);
+    background-image: url(/IMG/Fondo_Rojo.png);
+    background-size: cover;
+    background-position: center;
     gap: 60px;
 }
 
@@ -456,6 +520,9 @@ header .container{
     min-height: 100vh;
     padding: 80px 30px;
     background: var(--color-rosa);
+    background-image: url(/IMG/Fondo_Rosado.png);
+    background-size: cover;
+    background-position: center;
     gap: 50px;
 }
 
@@ -550,6 +617,9 @@ header .container{
     min-height: 100vh;
     padding: 80px 30px;
     background: var(--color-amarillo);
+    background-image: url(/IMG/Fondo_Amarillo.png);
+    background-size: cover;
+    background-position: center;
     gap: 40px;
 }
 
@@ -602,6 +672,9 @@ header .container{
     min-height: 100vh;
     padding: 80px 30px;
     background: var(--color-lila);
+    background-image: url(/IMG/Fondo_Lila.png);
+    background-size: cover;
+    background-position: center;
     gap: 50px;
 }
 
