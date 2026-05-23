@@ -178,7 +178,7 @@
 
 .finalidad-texto {
     font-family: var(--fuente-textos);
-    font-size: 17px;
+    font-size: 18px;
     color: var(--color-cafe);
     line-height: 1.7;
     margin-bottom: 18px;
@@ -261,7 +261,7 @@
 
 .objetivo-general p {
     font-family: var(--fuente-textos);
-    font-size: 17px;
+    font-size: 18px;
     color: #fff;
     line-height: 1.7;
 }
@@ -307,13 +307,13 @@
 
 .objetivo-card h3 {
     font-family: var(--fuente-titulos);
-    font-size: 20px;
+    font-size: 22px;
     color: var(--color-amarillo);
 }
 
 .objetivo-card p {
     font-family: var(--fuente-textos);
-    font-size: 15px;
+    font-size: 18px;
     color: #fff;
     line-height: 1.6;
 }
@@ -351,7 +351,7 @@
 
 .equipo-subtitulo {
     font-family: var(--fuente-textos);
-    font-size: 17px;
+    font-size: 18px;
     color: var(--color-cafe);
 }
 
@@ -421,14 +421,14 @@
 
 .equipo-rol {
     font-family: var(--fuente-textos);
-    font-size: 16px;
+    font-size: 18px;
     color: var(--color-rojo);
     margin-bottom: 4px;
 }
 
 .equipo-universidad {
     font-family: var(--fuente-textos);
-    font-size: 14px;
+    font-size: 18px;
     color: var(--color-cafe);
 }
 
@@ -441,7 +441,7 @@
 
 .footer p {
     font-family: var(--fuente-textos);
-    font-size: 15px;
+    font-size: 18px;
     color: var(--color-rojo);
 }
 
