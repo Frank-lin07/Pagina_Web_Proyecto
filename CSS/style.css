@@ -262,6 +262,41 @@ header .container{
 
 /*FIXES HOVER*/
 
+/* Testimonios cards */
+.testimonio-card {
+    position: relative;
+    z-index: 1;
+}
+
+/* Cortometraje poster home */
+.corto-poster {
+    position: relative;
+    z-index: 1;
+}
+
+.corto-contenido {
+    position: relative;
+    z-index: 1;
+}
+
+/* FIX DEFINITIVO HOVERS */
+.proyecto-hero,
+.proyecto-finalidad,
+.proyecto-objetivos,
+.proyecto-equipo {
+    isolation: isolate;
+}
+
+.proyecto-hero-contenido,
+.proyecto-hero-imagen,
+.finalidad-contenido,
+.finalidad-imagen,
+.objetivo-card,
+.equipo-card {
+    position: relative;
+    z-index: 1;
+}
+
 /* Hero logo */
 .hero-logo {
     position: relative;

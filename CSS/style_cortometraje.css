@@ -140,6 +140,33 @@
     z-index: 1;
 }
 
+.corto-hero {
+    position: relative;
+}
+
+.corto-hero-contenido {
+    position: relative;
+    z-index: 1;
+}
+
+.corto-hero-poster {
+    position: relative;
+    z-index: 1;
+}
+
+/* FIX DEFINITIVO HOVERS */
+.corto-hero,
+.corto-video-seccion,
+.corto-creditos {
+    isolation: isolate;
+}
+
+.corto-hero-contenido,
+.corto-hero-poster,
+.credito-card {
+    position: relative;
+    z-index: 1;
+}
 
 /*VIDEO*/
 .corto-video-seccion {
@@ -243,7 +270,7 @@
     width: calc(33% - 25px);
     min-width: 200px;
     border: 3px solid transparent;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -262,7 +289,7 @@
 .credito-rol {
     font-family: var(--fuente-textos);
     font-size: 14px;
-    color: var(--color-amarillo);
+    color: var(--color-lila);
     letter-spacing: 1px;
     text-transform: uppercase;
 }

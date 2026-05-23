@@ -127,6 +127,20 @@
     z-index: 1;
 }
 
+/* FIX DEFINITIVO HOVERS */
+.test-hero,
+.testimonio-bloque {
+    isolation: isolate;
+}
+
+.test-hero-contenido,
+.test-hero-logo,
+.testimonio-video,
+.testimonio-info {
+    position: relative;
+    z-index: 1;
+}
+
 
 /*BLOQUES TESTIMONIO*/
 .testimonio-bloque {
