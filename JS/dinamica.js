@@ -4,15 +4,15 @@ const iconoMenu = document.querySelector('.btn-menu label');
 
 const colores = {
     'hero': {
-        fondo:  '#D3D45C',
+        fondo:  '#D3D930',
         texto:  '#E40605',
         icono:  '#E40605'
 },
 
     'sinopsis': {
         fondo:  '#8C5011',
-        texto:  '#D3D45C',
-        icono:  '#D3D45C'
+        texto:  '#D3D930',
+        icono:  '#D3D930'
 },
 
     'cortometraje': {
@@ -23,8 +23,8 @@ const colores = {
 
     'testimonios': {
         fondo:  '#E2728B',
-        texto:  '#D3D45C',
-        icono:  '#D3D45C'
+        texto:  '#D3D930',
+        icono:  '#D3D930'
 },
 
     'visitanos': {

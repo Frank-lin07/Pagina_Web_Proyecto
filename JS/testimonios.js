@@ -14,7 +14,7 @@ const colores = {
         icono:  '#F9C521'
     },
     'test-henry': {
-        fondo:  '#D3D45C',
+        fondo:  '#D3D930',
         texto:  '#E40605',
         icono:  '#E40605'
     },

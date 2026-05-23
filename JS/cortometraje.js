@@ -4,7 +4,7 @@ const iconoMenu = document.querySelector('.btn-menu label');
 
 const colores = {
     'corto-hero': {
-        fondo:  '#1a1a1a',
+        fondo:  '#8C5011',
         texto:  '#FF8F0F',
         icono:  '#FF8F0F'
     },
