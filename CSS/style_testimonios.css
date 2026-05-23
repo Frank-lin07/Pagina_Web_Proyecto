@@ -110,23 +110,6 @@
     line-height: 1.7;
 }
 
-/*Fix hover testimonios*/
-.test-hero-logo {
-    position: relative;
-    z-index: 2;
-}
-
-.test-hero-contenido {
-    position: relative;
-    z-index: 2;
-}
-
-.testimonio-video,
-.testimonio-info {
-    position: relative;
-    z-index: 1;
-}
-
 /* FIX DEFINITIVO HOVERS */
 .test-hero,
 .testimonio-bloque {
@@ -140,7 +123,6 @@
     position: relative;
     z-index: 1;
 }
-
 
 /*BLOQUES TESTIMONIO*/
 .testimonio-bloque {

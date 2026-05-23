@@ -260,39 +260,27 @@ header .container{
     transform: rotate(5deg) scale(1.05);
 }
 
-/*FIXES HOVER*/
-
-/* Testimonios cards */
-.testimonio-card {
-    position: relative;
-    z-index: 1;
-}
-
-/* Cortometraje poster home */
-.corto-poster {
-    position: relative;
-    z-index: 1;
-}
-
-.corto-contenido {
-    position: relative;
-    z-index: 1;
-}
-
 /* FIX DEFINITIVO HOVERS */
-.proyecto-hero,
-.proyecto-finalidad,
-.proyecto-objetivos,
-.proyecto-equipo {
+.hero,
+.sinopsis,
+.cortometraje,
+.testimonios,
+.visitanos,
+.redes {
     isolation: isolate;
 }
 
-.proyecto-hero-contenido,
-.proyecto-hero-imagen,
-.finalidad-contenido,
-.finalidad-imagen,
-.objetivo-card,
-.equipo-card {
+.hero-logo,
+.hero-texto,
+.sinopsis-imagen,
+.sinopsis-contenido,
+.corto-contenido,
+.corto-poster,
+.testimonio-card,
+.stat-card,
+.contacto-item,
+.redes-formulario,
+.redes-contacto {
     position: relative;
     z-index: 1;
 }

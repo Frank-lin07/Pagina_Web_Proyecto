@@ -144,16 +144,6 @@
     position: relative;
 }
 
-.corto-hero-contenido {
-    position: relative;
-    z-index: 1;
-}
-
-.corto-hero-poster {
-    position: relative;
-    z-index: 1;
-}
-
 /* FIX DEFINITIVO HOVERS */
 .corto-hero,
 .corto-video-seccion,

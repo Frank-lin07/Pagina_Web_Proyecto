@@ -116,21 +116,29 @@
     z-index: 1;
 }
 
-.proyecto-hero-imagen {
-    position: relative;
-    z-index: 2;
-}
-
 .proyecto-hero-imagen:hover {
     transform: rotate(0deg) scale(1.02);
 }
 
-.proyecto-hero-imagen {
+.proyecto-hero-contenido {
     position: relative;
     z-index: 1;
 }
 
-.proyecto-hero-contenido {
+/* FIX DEFINITIVO HOVERS */
+.proyecto-hero,
+.proyecto-finalidad,
+.proyecto-objetivos,
+.proyecto-equipo {
+    isolation: isolate;
+}
+
+.proyecto-hero-contenido,
+.proyecto-hero-imagen,
+.finalidad-contenido,
+.finalidad-imagen,
+.objetivo-card,
+.equipo-card {
     position: relative;
     z-index: 1;
 }
