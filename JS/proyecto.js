@@ -5,8 +5,8 @@ const iconoMenu = document.querySelector('.btn-menu label');
 const colores = {
     'proyecto-hero': {
         fondo:  '#8C5011',
-        texto:  '#F9C521',
-        icono:  '#F9C521'
+        texto:  '#FF8F0F',
+        icono:  '#FF8F0F'
     },
     'proyecto-finalidad': {
         fondo:  '#D3D930',

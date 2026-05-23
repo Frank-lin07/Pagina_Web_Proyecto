@@ -11,8 +11,8 @@ const colores = {
 
     'sinopsis': {
         fondo:  '#8C5011',
-        texto:  '#D3D930',
-        icono:  '#D3D930'
+        texto:  '#FF8F0F',
+        icono:  '#FF8F0F'
 },
 
     'cortometraje': {

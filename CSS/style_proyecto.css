@@ -26,11 +26,11 @@
 }
 
 .header-proyecto .logo h1 {
-    color: var(--color-amarillo);
+    color: var(--color-naranja);
 }
 
 .header-proyecto .btn-menu label {
-    color: var(--color-amarillo);
+    color: var(--color-naranja);
 }
 
 /*HERO PROYECTO*/
@@ -69,7 +69,7 @@
 .proyecto-hero-texto {
     font-family: var(--fuente-textos);
     font-size: 18px;
-    color: var(--color-amarillo-verde);
+    color: var(--color-amarillo);
     line-height: 1.7;
 }
 
@@ -230,7 +230,7 @@
 .objetivos-header h2 {
     font-family: var(--fuente-titulos);
     font-size: clamp(28px, 4vw, 52px);
-    color: #fff;
+    color: var(--color-amarillo);
     text-transform: uppercase;
     margin-top: 10px;
 }

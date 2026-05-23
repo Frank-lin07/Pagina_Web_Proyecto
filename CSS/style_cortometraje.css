@@ -23,15 +23,15 @@
 
 /*HEADER*/
 .header-corto {
-    background: var(--color-cafe);
+    background: var(--color-naranja);
 }
 
 .header-corto .logo h1 {
-    color: var(--color-amarillo);
+    color: var(--color-rojo);
 }
 
 .header-corto .btn-menu label {
-    color: var(--color-amarillo);
+    color: var(--color-rojo);
 }
 
 /*HERO*/
@@ -42,8 +42,8 @@
     justify-content: space-between;
     min-height: 100vh;
     padding: 100px 8% 60px;
-    background: var(--color-cafe);
-    background-image: url(/IMG/Fondo_Cafe_Amarillo.png);
+    background: var(--color-naranja);
+    background-image: url(/IMG/Fondo_Naranja.png);
     background-size: cover;
     background-position: center;
     gap: 60px;
@@ -70,13 +70,13 @@
 }
 
 .corto-hero-contenido .corto-etiqueta {
-    color: var(--color-amarillo);
+    color: var(--color-rojo);
 }
 
 .corto-hero-contenido h1 {
     font-family: var(--fuente-titulos);
     font-size: clamp(32px, 5vw, 62px);
-    color: var(--color-naranja);
+    color: var(--color-rojo);
     line-height: 1.1;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -85,7 +85,7 @@
 .corto-hero-texto {
     font-family: var(--fuente-textos);
     font-size: 18px;
-    color: var(--color-amarillo-verde);
+    color: var(--color-rojo);
     line-height: 1.7;
 }
 
@@ -232,7 +232,7 @@
 }
 
 .creditos-header .corto-etiqueta {
-    color: var(--color-amarillo);
+    color: #1a1a1a;
 }
 
 .creditos-header h2 {
@@ -303,13 +303,13 @@
 .creditos-agradecimientos h3 {
     font-family: var(--fuente-titulos);
     font-size: 24px;
-    color: var(--color-amarillo);
+    color: #1a1a1a;
 }
 
 .creditos-agradecimientos p {
     font-family: var(--fuente-textos);
     font-size: 16px;
-    color: var(--color-amarillo-verde);
+    color: #1a1a1a;
     line-height: 1.6;
 }
 

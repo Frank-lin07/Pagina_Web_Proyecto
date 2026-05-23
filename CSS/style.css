@@ -381,6 +381,10 @@ header .container{
     max-width: 50%;
 }
 
+.sinopsis .corto-etiqueta{
+    color: var(--color-amarillo-verde);
+}
+
 .sinopsis-contenido h2 {
     font-family: var(--fuente-titulos);
     font-size: clamp(28px, 4vw, 52px);
@@ -393,7 +397,7 @@ header .container{
 .sinopsis-texto {
     font-family: var(--fuente-textos);
     font-size: 17px;
-    color: var(--color-amarillo);
+    color: var(--color-amarillo-verde);
     line-height: 1.7;
     margin-bottom: 18px;
 }

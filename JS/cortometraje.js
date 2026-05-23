@@ -4,9 +4,9 @@ const iconoMenu = document.querySelector('.btn-menu label');
 
 const colores = {
     'corto-hero': {
-        fondo:  '#8C5011',
-        texto:  '#FF8F0F',
-        icono:  '#FF8F0F'
+        fondo:  '#FF8F0F',
+        texto:  '#E40605',
+        icono:  '#E40605'
     },
     'corto-video': {
         fondo:  '#E40605',
@@ -15,8 +15,8 @@ const colores = {
     },
     'corto-creditos': {
         fondo:  '#8C5011',
-        texto:  '#F9C521',
-        icono:  '#F9C521'
+        texto:  '#1a1a1a',
+        icono:  '#1a1a1a'
     }
 };
 

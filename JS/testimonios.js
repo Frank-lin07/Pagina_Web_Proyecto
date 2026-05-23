@@ -10,8 +10,8 @@ const colores = {
     },
     'test-abel': {
         fondo:  '#8C5011',
-        texto:  '#F9C521',
-        icono:  '#F9C521'
+        texto:  '#FF8F0F',
+        icono:  '#FF8F0F'
     },
     'test-henry': {
         fondo:  '#D3D930',
@@ -20,8 +20,8 @@ const colores = {
     },
     'test-gilberto': {
         fondo:  '#8C5011',
-        texto:  '#F9C521',
-        icono:  '#F9C521'
+        texto:  '#FF8F0F',
+        icono:  '#FF8F0F'
     }
 };
 
